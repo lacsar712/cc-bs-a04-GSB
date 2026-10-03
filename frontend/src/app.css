@@ -129,3 +129,64 @@ th {
   background: #fff8e1;
   color: #f57f17;
 }
+
+.navrow {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.4rem;
+}
+
+a.nav {
+  display: inline-block;
+  padding: 0.3rem 0.8rem;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  background: #fff;
+  color: #1565c0;
+  text-decoration: none;
+  font-size: 0.85rem;
+}
+
+a.nav.active {
+  background: #1565c0;
+  border-color: #1565c0;
+  color: #fff;
+}
+
+section.block {
+  margin-bottom: 0.5rem;
+}
+
+section.block h3 {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #e0e0e0;
+  margin: 1rem 0;
+}
+
+button.mini {
+  padding: 0.25rem 0.6rem;
+  font-size: 0.8rem;
+  margin-right: 0.35rem;
+}
+
+form.addform {
+  margin-top: 0.75rem;
+  padding-top: 0.75rem;
+  border-top: 1px dashed #ddd;
+}
+
+select {
+  padding: 0.45rem 0.6rem;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  min-width: 220px;
+}
+
+td input {
+  min-width: 120px;
+}

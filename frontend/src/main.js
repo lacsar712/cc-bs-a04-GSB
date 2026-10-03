@@ -1,4 +1,2 @@
-import m from "mithril";
-import App from "./app.js";
-
-m.mount(document.getElementById("app"), App);
+// 引入 app.js 即完成 m.route 路由挂载
+import "./app.js";
