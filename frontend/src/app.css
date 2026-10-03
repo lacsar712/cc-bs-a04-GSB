@@ -129,3 +129,22 @@ th {
   background: #fff8e1;
   color: #f57f17;
 }
+
+nav.tabs {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+nav.tabs button.active {
+  background: #1565c0;
+  color: #fff;
+}
+
+tr.rejected {
+  background: #fff5f5;
+}
+
+tr.rejected td {
+  color: #b00020;
+}
